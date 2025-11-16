@@ -1,7 +1,7 @@
 from graph import Graph, Vertex
 from sys import maxsize
 
-class ISPNetwork:
+class ServiceMesh:
     def __init__(self):
         self.serviceMesh = Graph()
         self.coreMonitoringTree = Graph()
