@@ -3,8 +3,8 @@ from sys import maxsize
 
 class ISPNetwork:
     def __init__(self):
-        self.network = Graph()
-        self.MST = Graph()
+        self.serviceMesh = Graph()
+        self.coreMonitoringTree = Graph()
 
     def buildServiceMesh(self, filename):
         pass
