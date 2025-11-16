@@ -15,13 +15,13 @@ class ServiceMesh:
     def buildCoreMonitoringTree(self, source):
         pass
 
-    def findMonitoringPath(self, router1, router2):
+    def findMonitoringPath(self, svc1, svc2):
         pass
 
-    def findLowestLatencyPath(self, router1, router2):
+    def findLowestLatencyPath(self, svc1, svc2):
         pass
 
-    def findBottleneckPath(self, router1, router2):
+    def findBottleneckPath(self, svc1, svc2):
         pass
 
     def checkRoutingLoop(self, route):
